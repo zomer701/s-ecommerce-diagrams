@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net" modified="2023-12-20T03:15:13.557Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="BXYJqgvqv5pIlcv1zBlv" version="22.1.11" type="device">
+  <diagram name="Page-1" id="BKRcmq_LCN3JNnhorab3">
+    <mxGraphModel dx="1781" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2aoibXkkcq1RXfgKp3iT-1" value="inbound data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2aoibXkkcq1RXfgKp3iT-2" value="processing data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2aoibXkkcq1RXfgKp3iT-3" value="outbound data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2aoibXkkcq1RXfgKp3iT-4" value="market" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="70" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2aoibXkkcq1RXfgKp3iT-5" value="market N" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2aoibXkkcq1RXfgKp3iT-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2aoibXkkcq1RXfgKp3iT-1" target="2aoibXkkcq1RXfgKp3iT-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="300" as="sourcePoint" />
+            <mxPoint x="310" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aoibXkkcq1RXfgKp3iT-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2aoibXkkcq1RXfgKp3iT-2" target="2aoibXkkcq1RXfgKp3iT-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="300" as="sourcePoint" />
+            <mxPoint x="490" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aoibXkkcq1RXfgKp3iT-8" value="Different types of data [CSV, JSON, LOG ....., TXT]&lt;br&gt;Support multy protocols [REST, FTP, GRPC ..]&lt;br&gt;Different structures [Client base, Platform base]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="220" width="360" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2aoibXkkcq1RXfgKp3iT-9" value="Populate data in social platforms template&lt;br&gt;Save operation result&amp;nbsp;&lt;br&gt;Realtime process status&lt;br&gt;Log operation&lt;br&gt;Multy platform validation&lt;br&gt;Client validation" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="30" width="360" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2aoibXkkcq1RXfgKp3iT-10" value="Rate limit per platform&lt;br&gt;Rate limite per client&lt;br&gt;Fall back pleasure" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="230" width="360" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2aoibXkkcq1RXfgKp3iT-11" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="410" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2aoibXkkcq1RXfgKp3iT-13" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="170" as="sourcePoint" />
+            <mxPoint x="630" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aoibXkkcq1RXfgKp3iT-14" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.017;entryY=0.388;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.992;exitY=0.617;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="2aoibXkkcq1RXfgKp3iT-3" target="2aoibXkkcq1RXfgKp3iT-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="210" as="sourcePoint" />
+            <mxPoint x="610" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
